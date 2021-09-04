@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,  rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+
+    
+
+  
+   
+
+  /* Create the parallax scrolling effect */
+  
+  
+  
+}
+
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(250, 241, 246);
+    font-size: 45px;
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    font-size-adjust: 0.58;
+    width:200%
+}
+
+.menu{
+    width: 350px;
+    float: left;
+    padding-left: 50px;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+    color:  rgb(231, 125, 217);
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(231, 125, 217);
+    margin-top: 13px;
+    color: rgb(250, 241, 249);
+    /*border-right: none;*/
+    font-size: 16px;
+    font: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background:  rgb(231, 125, 217);
+    border: 2px solid  rgb(231, 125, 217);
+    margin-top: 13px;
+    color: rgb(253, 244, 252);
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+
+    display:flex;
+}
+
+.content .par{
+    padding-left: 00px;
+    padding-bottom: 25px;
+    font-family: 'Times New Roman';
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size:25px ;
+    
+
+}
+.container{
+    padding-left: 0px;
+    padding-top:80px; 
+       
+    
+}
+
+.container2{
+    width:60%;
+    padding-top:100px ;
+    padding-left:640px ;
+
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,  rgba(0,0,0,0.5)50%), url(background.jpg);
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 90px;
+    padding-left: 20px;
+    /*margin-top: 9%;*/
+    letter-spacing: 2px;
+    padding-top: 70px;
+
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background:  rgb(231, 125, 217) ;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 550px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:20px;
+    padding-bottom:40px;
+
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: rgb(241, 210, 235);
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: rgb(184, 4, 121);
+}
+
+.content span{
+    color: rgb(231, 125, 217);
+    font-size: 100px;
+    padding-left:80px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.336)50%, rgba(0,0,0,0.336)50% );
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    opacity: 80%;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(184, 4, 121);
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid  rgb(231, 125, 217) ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus{
+    outline: none;
+
+}
+
+::placeholder{
+    color: white;
+    font-family: sans-serif;
+}
+
+.btn1{
+    width: 240px;
+    height: 40px;
+    background:   rgb(231, 125, 217);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.btn1:hover{
+    background:rgb(184, 4, 121);
+    color: white;
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .icon{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}   
+
+.liw{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.fa.fa-facebook-square {
+    padding-left: 24px;
+    cursor: pointer;
+    font-size: 36px;
+  }
+  
+  .fa.fa-linkedin-square,
+  .fa.fa-twitter-square,
+  
+  .fa.fa-youtube-play,
+  .fa.fa-instagram {
+    cursor: pointer;
+  }
